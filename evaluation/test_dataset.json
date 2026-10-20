@@ -1,0 +1,91 @@
+
+[
+  {
+    "id": "test_001",
+    "document_id": "ccdfe3b4c7927377",
+    "question": "What is image processing?",
+    "expected_answer": "Image processing is the study of algorithms that take an image as input and return an image as output. It includes image display and printing, image editing and manipulation, image enhancement, feature detection, and image compression.",
+    "expected_pages": [1],
+    "category": "document_understanding"
+  },
+  {
+    "id": "test_002",
+    "document_id": "f99e09843ce822a7",
+    "question": "On which page is Color Image Processing discussed?",
+    "expected_answer": "Color Image Processing",
+    "expected_pages": [1],
+    "category": "page_retrieval"
+  },
+  {
+    "id": "test_003",
+    "document_id": "ccdfe3b4c7927377",
+    "question": "What is the capital of France?",
+    "expected_answer": "I could not find that information in the document.",
+    "expected_pages": [],
+    "category": "abstention"
+  },
+  {
+    "id": "test_004",
+    "document_id": "ccdfe3b4c7927377",
+    "question": "How are wavelets used in image processing?",
+    "expected_answer": "Wavelets represent images at different resolutions. They are also used in image compression and for pyramidal representation, where images are subdivided successively into smaller regions.",
+    "expected_pages": [33],
+    "category": "document_understanding"
+  },
+  {
+    "id": "test_005",
+    "document_id": "808ad2a1e6e3928a",
+    "question": "What is the candidate's educational qualification?",
+    "expected_answer": "Master of Computer Applications from Thapar Institute of Engineering and Technology, CGPA 8.17, 2025-2027. Bachelor of Computer Applications from Punjabi University, CGPA 8.33, 2022-2025.",
+    "expected_pages": [1],
+    "category": "education"
+  },
+  {
+    "id": "test_006",
+    "document_id": "808ad2a1e6e3928a",
+    "question": "What technical skills are mentioned in this resume?",
+    "expected_answer": "Python, SQL, Scikit-learn, TensorFlow, Keras, Sentence Transformers, PaddleOCR, LangChain, LangGraph, RAG, FAISS, OpenAI API, semantic search, Matplotlib, Seaborn, REST APIs, Git, GitHub, Jupyter Notebook, Google Colab, VS Code, Object-Oriented Programming, document retrieval, embeddings.",
+    "expected_pages": [1],
+    "category": "skills"
+  },
+  {
+    "id": "test_007",
+    "document_id": "808ad2a1e6e3928a",
+    "question": "What projects are listed in the resume?",
+    "expected_answer": "SkyPath - AI Flight Booking Assistant; DocuMind AI - Agentic Document Intelligence Platform; Pneumonia Detection from Chest X-Rays.",
+    "expected_pages": [1],
+    "category": "projects"
+  },
+  {
+    "id": "test_008",
+    "document_id": "c91954794a8b7e77",
+    "question": "What is the subtotal?",
+    "expected_answer": "The subtotal on the invoice is 2,325.00.",
+    "expected_pages": [1],
+    "category": "invoice"
+  },
+  {
+    "id": "test_009",
+    "document_id": "c91954794a8b7e77",
+    "question": "What is the tax amount?",
+    "expected_answer": "The tax amount on the invoice is 159.84.",
+    "expected_pages": [1],
+    "category": "invoice"
+  },
+  {
+    "id": "test_010",
+    "document_id": "c91954794a8b7e77",
+    "question": "What is the final total?",
+    "expected_answer": "The final total on the invoice is 2,484.84.",
+    "expected_pages": [1],
+    "category": "invoice"
+  },
+  {
+    "id": "test_011",
+    "document_id": "c91954794a8b7e77",
+    "question": "What is the passport number mentioned on this invoice?",
+    "expected_answer": "The document does not mention a passport number. I cannot provide that information because it is not included in the invoice.",
+    "expected_pages": [],
+    "category": "abstention"
+  }
+]

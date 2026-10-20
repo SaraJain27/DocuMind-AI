@@ -1,0 +1,13 @@
+
+.env
+.venv/
+__pycache__/
+*.py[cod]
+
+data/uploads/
+data/indexes/
+data/indexes_backup_before_rechunking/
+data/documents.json
+
+evaluation/evaluation_results.json
+retrieval/*_backup.py

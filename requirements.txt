@@ -1,0 +1,16 @@
+PyMuPDF
+paddleocr
+paddlepaddle==3.2.0
+Pillow
+python-dotenv
+sentence-transformers
+faiss-cpu
+langchain
+langchain-openai
+langgraph
+pydantic
+streamlit
+fastapi
+uvicorn
+python-multipart
+pytest

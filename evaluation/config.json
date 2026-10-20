@@ -1,0 +1,18 @@
+
+{
+  "description": "Generic evaluation configuration for DocuMind AI",
+  "metrics": [
+    "retrieval_relevance",
+    "answer_faithfulness",
+    "answer_correctness",
+    "abstention_quality",
+    "latency"
+  ],
+  "document_types": [
+    "resume",
+    "contract",
+    "invoice",
+    "research_paper",
+    "general_document"
+  ]
+}
